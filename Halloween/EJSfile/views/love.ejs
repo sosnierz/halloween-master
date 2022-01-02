@@ -1,0 +1,17 @@
+<!--include header templete-->
+<% include partials/header %>
+<link rel="stylesheet" href="app.css">
+
+<h1>Im in love with: <%= thingVar %></h1>
+
+<% if(thingVar === "rusty") { %>
+<p>good choice!!</p>
+<% } %>
+
+<% else { %>
+<p>bad choice!!</p> <% } %>
+
+
+<p>PS this is the love.ejs file</p>
+<!--include footer templete-->
+<% include partials/footer %>
