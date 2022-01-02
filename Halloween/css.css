@@ -68,6 +68,9 @@ h3 {
 	background-color: rgb(246, 135, 30);
 	color: black;
 }
+#tips p{
+	text-align: justify;
+}
 
 th {
 	text-align: center;
@@ -91,16 +94,26 @@ td {
 
 .photo{
 	text-align: center;
+	
+}
+img.photo{
+	
+	width: 25vw;
+	height: 20vh;
 }
 
-.single {
+ .single {
 	width: 60%;
-	
 	margin: 20px auto;
 }
+
 #single{
 border: 3px solid black;
 	border-radius: 8px;
+}
+#single img.photo{
+	width: 45%;
+	height: 40%;
 }
 
 .row{
